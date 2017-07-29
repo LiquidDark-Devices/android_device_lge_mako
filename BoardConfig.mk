@@ -32,7 +32,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 TARGET_KERNEL_CONFIG := lineageos_mako_defconfig
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 
 BOARD_USES_ALSA_AUDIO:= true
